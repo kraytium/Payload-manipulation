@@ -1,7 +1,7 @@
 import sys
 
 if len(sys.argv) < 2:
-    print 'usage: %s file.exe\n' % (sys.argv[0],)
+    print 'usage: ' + sys.argv[0] + ' file.exe\n'
     sys.exit(0)
 
 shellcode = ''
